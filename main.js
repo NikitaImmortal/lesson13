@@ -47,10 +47,11 @@
     найдите сумму чисел от 1 до 100, и выведите результат в консоль.   
     
 */
-        // for (let i = 1; i < 101; i++) {
-        // console.log(i)
-        // }
-
+                // let sum = 0;
+                // for (let i = 1; i <= 100; i++) {
+                //     sum += i;
+                // }
+                // console.log(sum);
 
 /*
     TASK 5
@@ -149,17 +150,17 @@
 
 */ 
 
-const numbersInRow = 3;
-const from = 5;
-const to = 14;
+// const numbersInRow = 3;
+// const from = 5;
+// const to = 14;
  
-let result = "";
+// let result = "";
  
-for (let i = from; i < to; i++) {
-  if ((from - i) % numbersInRow == 0 && i != from) {
-    result += "\n";
-  }
-  result += i.toString() + " ";
-}
+// for (let i = from; i < to; i++) {
+//   if ((from - i) % numbersInRow == 0 && i != from) {
+//     result += "\n";
+//   }
+//   result += i.toString() + " ";
+// }
  
-console.log(result);
+// console.log(result);
